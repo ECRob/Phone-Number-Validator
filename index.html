@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validator</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Telephone Number Validator</h1>
+      <p>Enter a phone number to see if its valid. Applys to US numbers only.</p>
+      <div class="phone">
+        <table id="phone-body"> 
+        <tr> 
+              <td colspan="4">
+                <input type="text" id="results-div">
+              </td> 
+        </tr> 
+  
+        <tr> 
+            <td><button type="button" value="7">7</td> 
+            <td><button type="button" value="8">8</td> 
+            <td><button type="button" value="9">9</td> 
+            <td><button type="button" value="(">(</td> 
+        </tr> 
+        <tr> 
+            <td><button type="button" value="4">4</td> 
+            <td><button type="button" value="5">5</td> 
+            <td><button type="button" value="6">6</td> 
+            <td><button type="button" value=")">)</td> 
+        </tr> 
+        <tr> 
+            <td><button type="button" value="1">1</td> 
+            <td><button type="button" value="2">2</td> 
+            <td><button type="button" value="3">3</td> 
+            <td><button type="button" value="-">-</td> 
+        </tr> 
+        <tr> 
+            <td><button type="button" value="0">0</td> 
+            <td><button type="button" id="clear-btn" value="Clear">Clear</td> 
+            <td><button type="button" id="check-btn" value="Check">Check</td>  
+        </tr> 
+    </table> 
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
